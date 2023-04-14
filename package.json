@@ -1,0 +1,24 @@
+{
+  "name": "wa-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "watch": "tsc --watch"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.5",
+    "ytdl-core": "^4.11.4"
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.0",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  }
+}
